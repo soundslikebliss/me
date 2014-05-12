@@ -11,6 +11,14 @@ class Me < Sinatra::Base
     slim :index
   end
 
+  get '/education' do
+    slim :education
+  end
+
+  get '/work' do
+    slim :work
+  end
+
   # post '/' do
   # # 1. Create an idea based on the form parameters
   # # idea = Idea.new
